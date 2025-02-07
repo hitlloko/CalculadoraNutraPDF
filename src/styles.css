@@ -1,0 +1,111 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e3f2fd; /* Azul claro suave */
+    margin: 20px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Container principal */
+  .container {
+    background-color: #ffffff; /* Fundo branco */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Estilização do título */
+  h1 {
+    color: #0277bd; /* Azul escuro */
+    margin-bottom: 20px;
+  }
+  
+  /* Estilização do input */
+  input {
+    width: 9%;
+    padding: 13px;
+    margin: 10px 0;
+    border: 2px solid #81d4fa; /* Azul claro */
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+  }
+  select {
+    width: 75%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #81d4fa; /* Azul claro */
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;}
+
+  input:focus {
+    border-color: #0288d1; /* Azul mais forte ao focar */
+    box-shadow: 0 0 5px rgba(2, 136, 209, 0.5);
+
+  }
+  
+  /* Estilização do botão */
+  button {
+    background-color: #0288d1; /* Azul médio */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-right: 5px;
+    margin-bottom: 3px;
+  }
+  
+  button:hover {
+    background-color: #01579b; /* Azul mais escuro ao passar o mouse */
+  }
+  
+  .botao {
+    
+        display: block;
+        margin-top: 10px; /* Para dar um espaçamento do elemento anterior */
+  
+      
+  }
+
+  .prod {
+    display: block;
+    margin-top: 10px; /* Para dar um espaçamento do elemento anterior */
+  }
+
+  .excluirbutton{
+    margin: 10px;
+    padding: 5px 10px 5px 10px;
+  }
+
+  li {
+    font-size: 11px;
+    list-style-type: none;  /* Remover marcador de lista */
+  }
+
+  ul{
+    padding-inline-start: 0px;
+  }
+
+  .inputComprador{
+    width: 233px
+  
+  }
+
+  .labelCN {
+    margin: none;
+    padding:none
+  }
+
+  p {
+    margin-bottom: 0px;
+  }
+ 
