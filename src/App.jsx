@@ -11,6 +11,7 @@ function App() {
     const [nomeComprador, setNomeComprador] = useState(""); // Novo estado para o nome do comprador
 
     const produtos = {
+        "Bálsamo": 38.00,
         "Cálcio Litho D": 54.95,
         "Coconut - óleo de coco": 49.95,
         "Colágeno com Vit. A, C, D e E": 49.95,
@@ -37,6 +38,7 @@ function App() {
         "Nutra Kalio": 49.95,
         "Nutra Oxy": 49.95,
         "Nutralina": 54.95,
+        "Nutra Mint": 49.90,
         "Nutrium": 54.95,
         "Nutrox - refil": 90.00,
         "Ômega 3": 0.00,
